@@ -14,7 +14,7 @@ body{
 
 .box-red{
     background-color: red;
-    transition: background 1s;
+    transition: background 1s ease 4s;
 }
 
 .box-red:hover{
