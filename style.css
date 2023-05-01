@@ -14,8 +14,13 @@ body{
     height: 100px;
     border-radius: 100%;
     background-color: #f00;
+    transition-property: all;
+    transition-duration: 3s;
 }
 
 .box-red:hover{
     background-color: #ff0;
+    transition-property: all;
+    transition-duration: 5s;
+    width: 200px;
 }
