@@ -6,6 +6,7 @@ body{
     justify-content: space-around;
     align-items: center;
     height: 100vh;
+    background-color: aqua;
 }
 
 .box-red{
@@ -13,4 +14,8 @@ body{
     height: 100px;
     border-radius: 100%;
     background-color: #f00;
+}
+
+.box-red:hover{
+    background-color: #ff0;
 }
