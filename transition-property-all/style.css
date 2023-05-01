@@ -1,13 +1,15 @@
 body{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 100vh;
     background-color: #000;
 }
 
 .box-red,
-.box-green{
+.box-green,
+.box-blue, 
+.box-yellow{
     width: 100px;
     height: 100px;
     border-radius: 100%;
@@ -37,4 +39,24 @@ body{
     width: 300px;
     height: 300px;
     border-radius: 8px;
+}
+
+.box-blue{
+    background-color: blue;
+    transition: width 1s linear 2s;
+}
+
+.box-blue:hover{
+    transition: width 2s ease-in-out 0s;
+    width: 350px;
+}
+
+.box-yellow{
+    background-color: yellow;
+    transition:opacity 2s linear 1s;
+}
+
+.box-yellow:hover{
+    opacity: 0;
+    transition: opacity 1s linear 0s;
 }
