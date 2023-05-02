@@ -6,8 +6,9 @@
     position: relative;
     animation-name: exemple-two;
     /* animation-name: exemple-one; */
-    animation-duration: 10s;
+    animation-duration: 3s;
     animation-delay: 2s;
+    animation-iteration-count:infinite;
 }
 
 @keyframes exemple-one{
