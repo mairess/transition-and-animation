@@ -6,6 +6,7 @@ div{
     animation-name: exemple;
     animation-duration: 2s;
     animation-iteration-count: infinite;
+    color: white;
 }
 
 .linear{
@@ -18,6 +19,10 @@ div{
 
 .ease-in{
     animation-timing-function: ease-in;
+}
+
+.ease-out{
+    animation-timing-function: ease-out;
 }
 
 @keyframes exemple{
