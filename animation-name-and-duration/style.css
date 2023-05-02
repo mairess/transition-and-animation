@@ -7,6 +7,7 @@
     animation-name: exemple-two;
     /* animation-name: exemple-one; */
     animation-duration: 10s;
+    animation-delay: 2s;
 }
 
 @keyframes exemple-one{
