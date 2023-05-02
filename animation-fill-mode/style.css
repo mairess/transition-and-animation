@@ -4,4 +4,27 @@
     border-radius: 100%;
     background-color: blueviolet;
     position: relative;
+    
+
+    animation-name: exemple;
+    animation-duration: 2s;
+    animation-delay: 5s;
+
+    animation-fill-mode: both;
+}
+
+@keyframes exemple{
+    0%{
+        left: 0px;
+        background-color: cyan;
+    }
+
+    50%{
+        left: 200px;
+        background-color: yellow;
+    }
+
+    100%{
+        left: calc(100% - 100px);
+    }
 }
