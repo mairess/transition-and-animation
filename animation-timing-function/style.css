@@ -4,7 +4,7 @@ div{
     background-color: blueviolet;
     position: relative;
     animation-name: exemple;
-    animation-duration: 2s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     color: white;
 }
@@ -23,6 +23,10 @@ div{
 
 .ease-out{
     animation-timing-function: ease-out;
+}
+
+.ease-in-out{
+    animation-timing-function: ease-in-out;
 }
 
 @keyframes exemple{
