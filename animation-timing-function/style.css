@@ -16,6 +16,10 @@ div{
     animation-timing-function: ease;
 }
 
+.ease-in{
+    animation-timing-function: ease-in;
+}
+
 @keyframes exemple{
     from{
         left: 0;
