@@ -4,4 +4,16 @@
     border-radius: 100%;
     background-color: #f00;
     position: relative;
+    animation-name: exemple-one;
+    animation-duration: 4s;
+}
+
+@keyframes exemple-one{
+    from{
+        background-color: blueviolet;
+    }
+
+    to{
+        background-color: rosybrown;
+    }
 }
