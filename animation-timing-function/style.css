@@ -3,14 +3,16 @@ div{
     height: 100px;
     background-color: blueviolet;
     position: relative;
+    animation-name: exemple;
+    animation-duration: 2s;
 }
 
 @keyframes exemple{
-    to{
+    from{
         left: 0;
     }
 
-    from{
+    to{
         left: calc(100% - 100px);
     }
 }
