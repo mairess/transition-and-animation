@@ -9,6 +9,7 @@
     animation-duration: 3s;
     animation-delay: 2s;
     animation-iteration-count:infinite;
+    animation-direction: reverse;
 }
 
 @keyframes exemple-one{
