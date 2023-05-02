@@ -11,6 +11,10 @@ div{
     animation-timing-function: linear;
 }
 
+.ease{
+    animation-timing-function: ease;
+}
+
 @keyframes exemple{
     from{
         left: 0;
