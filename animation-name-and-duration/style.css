@@ -22,17 +22,32 @@
 @keyframes exemple-two{
     0%{
         background-color: blueviolet;
+        left: 0;
+        top: 0;
     }
 
     25%{
         background-color: rosybrown;
+        left: 600px;
+        top: 0;
     }
 
     50%{
         background-color: blue;
+        left: 600px;
+        top: 600px;
+    }
+
+    75%{
+        background-color: yellow;
+        left: 0;
+        top: 600px;
+        
     }
 
     100%{
-        background-color: yellow;
+        background-color: red;
+        left: 0;
+        top: 0;
     }
 }
