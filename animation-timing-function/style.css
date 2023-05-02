@@ -7,6 +7,10 @@ div{
     animation-duration: 2s;
 }
 
+.linear{
+    animation-timing-function: linear;
+}
+
 @keyframes exemple{
     from{
         left: 0;
