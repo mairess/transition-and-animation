@@ -4,8 +4,9 @@
     border-radius: 100%;
     background-color: #f00;
     position: relative;
-    animation-name: exemple-one;
-    animation-duration: 4s;
+    animation-name: exemple-two;
+    /* animation-name: exemple-one; */
+    animation-duration: 10s;
 }
 
 @keyframes exemple-one{
@@ -15,5 +16,23 @@
 
     to{
         background-color: rosybrown;
+    }
+}
+
+@keyframes exemple-two{
+    0%{
+        background-color: blueviolet;
+    }
+
+    25%{
+        background-color: rosybrown;
+    }
+
+    50%{
+        background-color: blue;
+    }
+
+    100%{
+        background-color: yellow;
     }
 }
